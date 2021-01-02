@@ -67,7 +67,16 @@
                     </button>
                     <h2 class="mobile-custom-text text-xs font-semibold text-gray-600 uppercase tracking-wide">Mailboxes</h2>
                     <div class="mt-3">
-                        <a href="#" class="-mx-3 px-3 py-2 flex items-center mobile-custom-justify justify-between text-sm font-medium bg-gray-200 rounded-lg">
+                        <a href="#" class="font-bold description mt-2 -mx-3 px-3 py-2 flex items-center mobile-custom-justify justify-between text-sm font-medium hover:bg-gray-200 rounded-lg">
+                            <span class="inline-flex">
+                                <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span class="mobile-custom-text ml-2 text-gray-900">Description</span>
+                            </span>
+                        </a>
+
+                        <a href="#" class="mt-2 -mx-3 px-3 py-2 flex items-center mobile-custom-justify justify-between text-sm font-medium bg-gray-200 rounded-lg">
                             <span class="inline-flex">
                                 <svg class="h-6 w-6 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
@@ -131,7 +140,6 @@
                         <a href="#" class="mt-4 block text-sm font-medium text-gray-700">Refunds</a>
                         <a href="#" class="mt-4 block text-sm font-medium text-gray-700">Discounts</a>
                         <a href="#" class="mt-4 block text-sm font-medium text-gray-700">Bugs</a>
-                        <a href="#" class="description mt-4 block text-sm font-bold text-gray-700">Description</a>
                     </div>
                 </nav>
             </div>
@@ -411,7 +419,7 @@
                 From: "opacity-100 translate-y-0 sm:scale-100"
                 To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             -->
-            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+            <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg  lg:max-w-xl sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
             <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                 <div class="sm:flex sm:items-start">
                 <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
@@ -419,9 +427,22 @@
                     Project Description
                     </h3>
                     <div class="mt-2">
-                    <p class="text-sm text-gray-500">
-                    This project is developed and represents the layout and plan of a web application control over the inbox. The application is designed and made only to display the message control interface, but it is not functional. The application is responsive for all devices. Tailwind css was used in making this project. The development of a functional application would be further carried out using a laravel framework.
-                    </p>
+                        <p class="text-sm text-gray-500 mt-1">
+                            This project is developed and represents the layout and plan of a web application control over the inbox. 
+                            Project is developed to practice tailwind CSS and for the customers that want to implement this kind of design in their CRM, or want something similar for their system. 
+                            The goal of this project is to show how it would look like an interface that manages user inboxes.  
+                        </p>
+                        <br>
+                        <p class="text-sm text-gray-500 mt-1">
+                            The application is currently not functional it's only designed and developed to show the message control interface.
+                            The plan for future development is to make a fully functional application that will be used in all companies, institutions, faculties, for personal use, etc. 
+                            Also, the plan is that it can be easily implemented in an already existing CRM. 
+                        </p>  
+                        <br>
+                        <p class="text-sm text-gray-500 mt-1">
+                            Tailwind CSS was used in making this project. The application is responsive for all devices. 
+                            The development of a functional application would be further carried out using a Laravel framework.
+                        </p>
                     </div>
                 </div>
                 </div>
