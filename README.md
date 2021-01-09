@@ -1,6 +1,6 @@
 # inbox-ui
 
-##Project Description
+## Project Description
 
 This project is developed and represents the layout and plan of a web application control over the inbox. Project is developed to practice tailwind CSS and for the customers that want to implement this kind of design in their CRM, or want something similar for their system. The goal of this project is to show how it would look like an interface that manages user inboxes.
 
