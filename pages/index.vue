@@ -119,62 +119,7 @@
             </div>
           </div>
           <div class="p-3 flex-1 overflow-y-auto space-y-3">
-            <article class="px-4 sm:px-10 pt-6 pb-8 bg-white rounded-lg shadow">
-              <div class="flex items-center justify-between flex-wrap">
-                <p class="text-lg font-semibold">
-                  <span class="text-gray-900">Joe Armnstrong</span>
-                  <span class="text-gray-600">wrote</span>
-                </p>
-                <div class="flex items-center flex-wrap">
-                  <span class="text-sm text-gray-600">
-                    Yesterday at 7:24 AM
-                  </span>
-                  <img class="mobile-custom-margin-image sm:ml-5 w-9 h-9 object-cover rounded-full" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=3.5&w=144&q=80" alt="">
-                </div>
-              </div>
-              <div class="mt-6 text-gray-800 text-sm">
-                <p>Thanks so much!! Can't wait to try it out :)</p>
-              </div>
-            </article>
             <LazyChatMessage v-for="(message, index) in chatMessages" :key="index" :message="message" />
-            <article class="px-4 sm:px-10 pt-6 pb-8 bg-white rounded-lg shadow">
-              <div class="flex items-center justify-between flex-wrap">
-                <p class="text-lg font-semibold">
-                  <span class="text-gray-900">Monica White</span>
-                  <span class="text-gray-600"> wrote</span>
-                </p>
-                <div class="flex items-center flex-wrap">
-                  <span class="text-sm text-gray-600">
-                    Yesterday at 7:24 AM
-                  </span>
-                  <img class="mobile-custom-margin-image sm:ml-5 w-9 h-9 object-cover rounded-full" src="https://images.unsplash.com/photo-1510025987945-cf4ee9606b1b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=4&w=144&q=80" alt="">
-                </div>
-              </div>
-              <div class="mt-6 text-gray-800 text-sm">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <p class="mt-4">Viverra justo nec ultrices dui sapien eget. Adipiscing commodo elit at imperdiet. Vitae elementum curabitur vitae nunc turpis tincidunt id aliquet risus.</p>
-                <p class="mt-4 font-semibold text-gray-900">Monica White</p>
-                <p>Customer Service</p>
-              </div>
-            </article>
-            <article class="px-4 sm:px-10 pt-6 pb-8 bg-white rounded-lg shadow">
-              <div class="flex items-center justify-between flex-wrap">
-                <p class="text-lg font-semibold">
-                  <span class="text-gray-900">Joe Armnstrong</span>
-                  <span class="text-gray-600">wrote</span>
-                </p>
-                <div class="flex items-center flex-wrap">
-                  <span class="text-sm text-gray-600">
-                    Yesterday at 7:24 AM
-                  </span>
-                  <img class="mobile-custom-margin-image sm:ml-5 w-9 h-9 object-cover rounded-full" src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=3.5&w=144&q=80" alt="">
-                </div>
-              </div>
-              <div class="mt-6 text-gray-800 text-sm">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <p class="mt-4">Viverra justo nec ultrices dui sapien eget. Adipiscing commodo elit at imperdiet. Vitae elementum curabitur vitae nunc turpis tincidunt id aliquet risus.</p>
-              </div>
-            </article>
           </div>
         </div>
       </main>
